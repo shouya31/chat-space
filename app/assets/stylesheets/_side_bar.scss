@@ -1,0 +1,40 @@
+.side-bar{
+  width:17%;
+  height: 830px;
+  background:#2f3e51;
+  .header{
+    height: 10%;
+    background: #253141;
+    display: flex;
+    padding-bottom: 12px;
+    &__user-name{
+      margin: auto 20px;
+      font-size: 16px;
+    }
+
+    .edit-list{
+      width: 10%;
+      display: flex;
+      justify-content: space-between;
+      margin: auto 100px;
+      color:white;
+      &__edit{
+        margin-right: 5px;
+      }
+    }
+  }
+  .group{
+    &_group-name{
+      font-size: 15px;
+    }
+    &__group-log{
+      font-size: 11px;
+    }
+  }
+  .groups{
+    margin:20px 0 40px 20px;
+  }
+}
+.white-bold-font{
+  color: white;
+}

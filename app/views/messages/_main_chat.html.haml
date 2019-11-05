@@ -1,0 +1,30 @@
+.main
+  .header
+    .group-info
+      %h2.group-info__group-name
+        group name
+      %ul.members
+        %li.members__member
+          Member：
+        %li.members__member
+    .edit-btn
+      %p.edit-btn__btn-text
+        = link_to "Edit", "", class: "edit-btn__btn-text--link"
+
+  .message
+    .message_upline
+      %h3.message__name
+        shouya
+      %p.message__date
+        2019/10/08/19:14:39
+    %p.message__body
+      this is a first message
+
+  .form
+    .input-box
+      %input{class: "input-box__text", placeholder: "type a message"}
+        %label{class: "input-box__image"}
+          %i.fa.fa-image
+            %input{type: "file", style: "display:none;"}
+      %input{type: "submit", class: "form__send-btn", value: "Send"}
+
